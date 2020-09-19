@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Forbidden access to a socket on Windows and how to solve it"
+title: "Forbidden access to a socket on Windows and how to solve it"
 ---
 
 # Forbidden access to a socket on Windows and how to solve it
