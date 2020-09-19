@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Miha and I’ve been tinkering with computers for some time now. I remember getting Pentium 100 in the late ’90s and that’s how it all started.
 
-### More Information
+### Highlight Services
 
-A place to include any other types of information that you'd like to include about yourself.
+- Azure cloud development
+- Devops services and expertise
+- Back-end application development 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Linkedin](https://www.linkedin.com/in/mihajakovac/)
