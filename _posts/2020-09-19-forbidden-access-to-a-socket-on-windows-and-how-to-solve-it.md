@@ -3,8 +3,6 @@ layout: post
 title: Forbidden access to a socket on Windows and how to solve it
 ---
 
-# Forbidden access to a socket on Windows and how to solve it
-
 Lately I was getting unfamiliar errors when running a .NET applications or spawning docker container on Windows. I was really annoyed I could not run the application on port 5001 from Visual Studio, since it was working fine just a day before.
 
 The core of the message I got was: `An attempt was made to access a socket in a way forbidden by its access permissions`.
