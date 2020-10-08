@@ -6,11 +6,11 @@ author: Miha J.
 ---
 
 Lately I was getting unfamiliar errors when running a .NET applications or spawning docker container on Windows. I was really annoyed I could not run the application on port 5001 from Visual Studio, since it was working fine just a day before.
-<!--more-->
+
 The core of the message I got was: `An attempt was made to access a socket in a way forbidden by its access permissions`.
 
 "Which application is using this port?" I did a "good old" computer restart ... and ... nothing.
-
+<!--more-->
 I run a `netstat -ano` which lists all computer connections and ports, and the port was not there. "Huh?"
 
 After a quick Google search I found a command, that can show me "reserved" or excluded ports on my Windows instance.
