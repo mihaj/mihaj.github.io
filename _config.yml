@@ -51,6 +51,9 @@ url: https://mjc.si
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+remote_theme: samarsault/plainwhite-jekyll
+theme: plainwhite
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -78,6 +81,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - plainwhite
 
 # Exclude these files from your production _site
 exclude:
@@ -86,3 +90,13 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+plainwhite:
+  name: Miha Jakovac
+  tagline: .NET & DevOps Engineer | Cloud Specialist | Team Enabler
+  date_format: "%b %-d, %Y"
+  portfolio_image: https://avatars3.githubusercontent.com/u/557954?s=400&u=a1683b85721c14e841ee6be1e92e37f9527dab96&v=4
+
+  social_links:
+    github: mihaj
+    linkedIn: mihajakovac # format: locale/username
