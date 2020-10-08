@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 My name is Miha and I’ve been tinkering with computers for some time now. I remember getting Pentium 100 in the late ’90s and that’s how it all started.
