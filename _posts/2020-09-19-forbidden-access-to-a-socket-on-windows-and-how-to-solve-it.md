@@ -3,6 +3,7 @@ layout: post
 title: Forbidden access to a socket on Windows and how to solve it
 excerpt_separator: <!--more-->
 author: Miha J.
+tags: windows hyper-v
 ---
 
 Lately I was getting unfamiliar errors when running a .NET applications or spawning docker container on Windows. I was really annoyed I could not run the application on port 5001 from Visual Studio, since it was working fine just a day before.
