@@ -13,6 +13,18 @@ description: .NET & DevOps Engineer | Cloud Specialist | Team Enabler
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/557954?s=400&u=a1683b85721c14e841ee6be1e92e37f9527dab96&v=4
 
+#minmal theme settings
+logo: https://mihaj.github.io/images/avatar.png
+title: Miha Jakovac
+description: .NET & DevOps Engineer | Cloud Specialist | Team Enabler
+absolute_url: https://mihajakovac.com
+theme: jekyll-theme-minimal
+github:
+  is_project_page: false
+  is_user_page: false
+show_downloads: true
+linkedin_url: https://www.linkedin.com/in/mihajakovac/
+mjc_url: https://mjc.si
 #
 # Flags below are optional
 #
@@ -50,8 +62,6 @@ url: https://mjc.si
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
-
-theme: jekyll-theme-minimal
 
 #
 # !! You don't need to change any of the configuration flags below !!
