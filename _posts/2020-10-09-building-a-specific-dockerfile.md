@@ -6,13 +6,15 @@ author: Miha J.
 tags: docker nugget
 ---
 
-To build a docker file, you would normally navigate to a folder and run:
+To build a docker file, you would normally navigate to a folder where it's located and run:
 
 ```
 docker build .
 ```
 
-That will assume, that a `dockerfile` is located in a folder from where you run the command. A `dot` is a context in which the docker build will run. Sometimes a `dockerfile` is nested within subfolders and it's easeier for me to specify a docker file and keep the context. For example, let's assume we have a folder structure:
+That will assume, that a `dockerfile` is located in a folder from where you run the command. A `dot` is a context in which the docker build will run. Sometimes a `dockerfile` is nested within subfolders and it's easier to specify a `dockerfile` and keep the "wider context". What I mean by that?
+
+For example, let's assume we have a folder structure:
 
 ```
 devops
@@ -28,7 +30,7 @@ src
       |->Dockerfile 
 ```
 
-I want to run the docker build from the top folder to have a better control over the context. To instruct the docker build to run specific `dockerfile` you can write this instead:
+I want to run the docker build from the top folder to have a better control over the context. To instruct the docker build to build from specified `dockerfile` you can write this instead:
 
 ```
 docker build -f src/Service/Dockerfile .
