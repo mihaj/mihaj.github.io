@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\images",
+    "\\_drafts",
     "\\_includes",
     "\\_layouts",
-    "\\_posts",
-    "\\_sass"
+    "\\_posts"
   ],
-  "SelectedNode": "\\_sass\\jekyll-theme-minimal.scss",
+  "SelectedNode": "\\_layouts\\default.html",
   "PreviewInSolutionExplorer": false
 }
