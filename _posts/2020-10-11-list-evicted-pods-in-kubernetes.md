@@ -1,6 +1,6 @@
 ---
 layout: post
-title: List evicted pods from Kubernetes
+title: List evicted pods in Kubernetes
 excerpt_separator: <!--more-->
 author: Miha J.
 tags: kubernetes
