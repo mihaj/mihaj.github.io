@@ -12,7 +12,7 @@ From all the tools I am mostly using `FancyZones` and `PowerToys Run`.
 
 FancyZones are helpful to split your screen to multiple zones and help with multitasking. To set it up press `Win + ~` and to put a window in a zone, press `Shift` and drag and drop the window into zone.
 
-PowerToys Run is a global search for all the items in your Windows Seearch Index. Just press `Alt + Space` and start searching!
+`PowerToys Run` is a global search for all the items in your Windows Seearch Index. Just press `Alt + Space` and start searching!
 
 In October 2020 PowerToys include:
 - Color Picker

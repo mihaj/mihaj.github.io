@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_drafts"
+    "\\images",
+    "\\_drafts",
+    "\\_layouts",
+    "\\_posts",
+    "\\_sass"
   ],
-  "SelectedNode": "\\_drafts\\powershell autocomplete.md",
+  "SelectedNode": "\\_sass\\jekyll-theme-minimal.scss",
   "PreviewInSolutionExplorer": false
 }
