@@ -6,7 +6,7 @@ author: Miha J.
 tags: c#
 ---
 
-Need a generated key for your password or api key?
+Do you need a generated key for your password or api key?
 
 Open up a `C# interactive console` in Visual Studio and paste this lines:
 
