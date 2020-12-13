@@ -17,7 +17,7 @@
             <h1><a href="{{ "/" }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
             {% if site.logo %}
-            <img src="{{site.logo | relative_url}}" alt="Logo" />
+            <a href="/cv"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
             {% endif %}
 
             <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -31,13 +31,13 @@
             <p class="view"><a href="{{ site.github.linkedin_url }}">View My LinkedIn Profile</a></p>
             {% endif %}
 
-            {% if site.show_downloads %}
-            <ul class="downloads">
-                <li><a href="{{ site.linkedin_url }}" target="_blank">Go to my<strong>LinkedIn</strong></a></li>
-                <li><a href="{{ site.github.owner_url }}" target="_blank">Go to my<strong>GitHub</strong></a></li>
-                <li><a href="{{ site.mjc_url }}" target="_blank">Go to my<strong>mjc.si</strong></a></li>
+            <ul>
+                <li><a href="/cv">A curriculum vitae :)</a></li>
+                <li><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn Profile</a></li>
+                <li><a href="{{ site.github.owner_url }}" target="_blank">GitHub Profile</a></li>
+                <li><a href="{{ site.mjc_url }}" target="_blank">MJC.si</a></li>
+                <li><a href="{{ site.qatoolkit_url }}" target="_blank">QAToolKit</a></li>
             </ul>
-            {% endif %}
 
             <p>
                 My name is Miha and I've been tinkering with computers for some time now. I remember getting Pentium 100 in the late '90s and that's how it all started.

@@ -128,7 +128,7 @@ ul.badges {
 
 ul.downloads {
   list-style:none;
-  height:40px;
+  height:44px;
   padding:0;
   background: #f4f4f4;
   border-radius:5px;
@@ -137,7 +137,7 @@ ul.downloads {
 }
 
 .downloads li {
-  width:89px;
+  width:66px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -175,9 +175,9 @@ strong {
   font-weight:700;
 }
 
-.downloads li + li + li {
+.downloads li + li + li + li {
   border-right:none;
-  width:89px;
+  width:66px;
 }
 
 .downloads a strong {
