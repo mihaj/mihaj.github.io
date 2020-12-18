@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
     "\\_drafts",
     "\\_layouts",
-    "\\_posts",
-    "\\_sass"
+    "\\_posts"
   ],
-  "SelectedNode": "\\_drafts\\powershell autocomplete.md",
+  "SelectedNode": "\\_drafts\\powershell-copy-folder.md",
   "PreviewInSolutionExplorer": false
 }
