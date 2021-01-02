@@ -1,24 +1,30 @@
 ---
 layout: post
-title: Powershell Core Autocomplete with PSReadline
+title: Powershell Core Auto-complete with PSReadline
 excerpt_separator: <!--more-->
 author: Miha J.
 tags: powershell rsreadline
 ---
 
-I am heavy user of `Powershell Core` in combination with `Windows Terminal`. Did you know you could have auto-complete in your Powershell?
+I am a heavy user of `Powershell Core` in combination with `Windows Terminal`. Did you know you could have auto-complete in your Powershell?
 
-That is achieved by a module `PSReadLine`.
+Use `PSReadLine` module to achieve that.
 
 You can install it by:
 
-```
-
+```powershell
+> Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 ```
 
 Then you can change `powershell` $PROFILE to set it up every time you run the Powershell.
 
 From `powershell` run `notepad $PROFILE` and add the content below to the end of the file:
+
+```powershell
+> notepad $PROFILE
+```
+
+And add the content below to it.
 
 ```powershell
 #Autocomplete
@@ -30,4 +36,4 @@ Set-PSReadLineOption -ShowToolTips
 Set-PSReadLineOption -PredictionSource History
 ```
 
-Save and restart and you'll get the auto-complete feature!
+Save and restart Powershell Core, and you'll get the auto-complete feature!
