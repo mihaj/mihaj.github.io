@@ -13,7 +13,7 @@ Use `PSReadLine` module to achieve that.
 You can install it by:
 
 ```powershell
-> Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 ```
 
 Then you can change `powershell` $PROFILE to set it up every time you run the Powershell.
@@ -21,7 +21,7 @@ Then you can change `powershell` $PROFILE to set it up every time you run the Po
 From `powershell` run `notepad $PROFILE` and add the content below to the end of the file:
 
 ```powershell
-> notepad $PROFILE
+notepad $PROFILE
 ```
 
 And add the content below to it.
