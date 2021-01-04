@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_drafts"
+    "\\images",
+    "\\_drafts",
+    "\\_includes",
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\_posts",
+  "SelectedNode": "\\_drafts\\qatoolkit-database-3.md",
   "PreviewInSolutionExplorer": false
 }

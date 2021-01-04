@@ -6,7 +6,7 @@ author: Miha J.
 tags: c# tool
 ---
 
-I like using tools. And as you may already know, I also enjoy writing tools. The one I will present today is about checking the **health of HTTP API endpoints**. It's a simple tool that verifies whether a list of API URLs returns HTTP code OK - 200.
+I like using tools. And as you may already know, I also enjoy writing tools. The one I will present today is about checking the **health of HTTP API endpoints**. It's a simple tool that returnes the HTTP endpoint status code.
 
 OK, here is the core code of the tool:
 
