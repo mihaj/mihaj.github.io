@@ -1,6 +1,7 @@
 ﻿---
 layout: post
 title: Liveness check tool for your HTTP services
+excerpt_separator: <!--more-->
 author: Miha J.
 tags: c# tool
 ---
