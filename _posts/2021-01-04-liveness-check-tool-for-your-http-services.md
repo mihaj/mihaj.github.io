@@ -3,7 +3,7 @@ layout: post
 title: Liveness check tool for your HTTP services
 excerpt_separator: <!--more-->
 author: Miha J.
-tags: c# tool
+tags: c# tool qatoolkit http
 ---
 
 I like using tools. And as you may already know, I also enjoy writing tools. The one I will present today is about checking the **health of HTTP API endpoints**. It's a simple tool that returnes the HTTP endpoint status code.
@@ -21,7 +21,7 @@ namespace MyApp
 {
     class Program
     {
-        private async Task Main(string[] args)
+        private static async Task Main(string[] args)
         {
             var hcs = new string[] {
                 $"https://users-dev.api.com/hc",
