@@ -72,6 +72,7 @@ Now open up PowerShell and navigate to the DockerTest folder and run:
 `docker build -f Dockerfile -t nginxhello:latest .`
 
 After the image is built, run the docker container from that image:
+
 `docker run --rm --name nginxhello -p 8888:80 -it nginxhello:latest`
 
 Now you can navigate to your browser at `http://localhost:8888` and see your Index.html.
