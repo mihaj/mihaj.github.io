@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Run Nginx Web in Docker on Windows
+title: Run Nginx Webserver in Docker on Windows
 excerpt_separator: <!--more-->
 author: Miha J.
 tags: docker nginx
