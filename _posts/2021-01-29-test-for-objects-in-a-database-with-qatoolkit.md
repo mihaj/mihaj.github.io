@@ -30,4 +30,34 @@ var runner = new SqlServerTestRunner(scripts, options =>
 List<DatabaseTestResult> results = await runner.Run();
 ```
 
+This is the `results` object we get:
+
+```json
+[
+  {
+    "DatabaseResult": true,
+    "Variable": "Users",
+    "Script": "IF EXISTS (SELECT * FROM [sys].[tables] WHERE [Name] = 'Users') BEGIN Select 1 END ELSE BEGIN Select 0 END;",
+    "DatabaseTestType": "ObjectExist",
+    "DatabaseKind": "SQLServer"
+  },
+  {
+    "DatabaseResult": true,
+    "Variable": "SearchUsers",
+    "Script": "IF EXISTS (SELECT * FROM [sys].[views] WHERE [Name] = 'SearchUsers') BEGIN Select 1 END ELSE BEGIN Select 0 END;",
+    "DatabaseTestType": "ObjectExist",
+    "DatabaseKind": "SQLServer"
+  },
+  {
+    "DatabaseResult": true,
+    "Variable": "AddNewUser",
+    "Script": "IF EXISTS (SELECT * FROM [sys].[procedures] WHERE [Name] = 'AddNewUser') BEGIN Select 1 END ELSE BEGIN Select 0 END;",
+    "DatabaseTestType": "ObjectExist",
+    "DatabaseKind": "SQLServer"
+  }
+]
+```
+
+All three rules pass - all three objects exist in the database. Additionally the runner returns `DatabaseTestType` and `DatabaseKind` parameters.
+
 One note. The above example is working on the **Microsoft SQLServer** database, but you can also use MySQL or Postgresql servers. Read more [here](https://github.com/qatoolkit/qatoolkit-engine-database-net).
