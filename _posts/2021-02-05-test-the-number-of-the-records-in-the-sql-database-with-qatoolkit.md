@@ -58,4 +58,4 @@ If we serialize the `results` object to JSON we get:
 
 You can assert results by xUnit or NUnit, or you can process the results however you want.
 
-Read more about the library here.
+Read more about the library [here](https://github.com/qatoolkit/qatoolkit-engine-database-net).
