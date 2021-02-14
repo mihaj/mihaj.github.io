@@ -12,7 +12,7 @@ First, you need a `signtool.exe`, which comes with Visual Studio. Open `Visual S
 
 ![VS click once](../images/2021-02-14-vs_click_once.png)
 
-### 1. Singtool.exe
+### 1. Signtool.exe
 Once done, go to `C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool`, which should contain `singtool.exe`.
 
 ### 2. Get PFX certificate
