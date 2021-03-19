@@ -26,17 +26,20 @@ I am a certified Microsoft **MCP**, [MCSD App Builder](https://www.youracclaim.c
 
 I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/html/show-badge.html?b=hoeuvmlh). A Scrum Master helps the development team to create high-value products, removing impediments to the development teams progress, helping stakeholders understand and enact Scrum and empirical product development.
 
-### A .Technical Expertise & Experience
+### A .Technical Expertise & Experience Matrix
 
-- **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS)
-- **Microsoft .NET** development with C#,
-- Webservice integrations **REST and SOAP**,
-- **API design** in service-oriented & micro-services architecture,
-- **CI/CD pipeline automation** & **testing**
-- Messaging (**RabbitMQ**, **Azure Service Bus**),
-- **Docker** & **Kubernetes**
-- **MSSQL** & **MySQL**, **Azure Cosmos DB**,
-- Ubuntu Linux
+| Technology / Product | Experience | Level (1-5) |
+| ----------- | ----------- | ----------- |
+| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS) | 4 years | 5 |
+| **Microsoft .NET** development with C#** | 15 years | 5 |
+| Webservice integrations **REST and SOAP** | 10 years | 4 |
+| **API design** in service-oriented & micro-services architecture** | 4 years | 4 |
+| CI/CD pipeline automation** & **testing** | 3 years | 5 |
+| Messaging (**RabbitMQ**, **Azure Service Bus**) | 3 years | 4 |
+| **Docker** & **Kubernetes** | 2 years | 4 |
+| **MSSQL** & **MySQL**, **Azure Cosmos DB** |15 years | 5 |
+| Ubuntu Linux | 10 years | 4 |
+| Agile development | 4 years | 4 |
 
 ### B. Certifications Highlights
 
