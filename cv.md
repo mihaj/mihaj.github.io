@@ -30,16 +30,20 @@ I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/h
 
 | Technology / Product | Experience | Level (1-5) |
 | ----------- | ----------- | ----------- |
-| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS) | 4 years | 5 |
-| **Microsoft .NET** development with C#** | 15 years | 5 |
-| Webservice integrations **REST and SOAP** | 10 years | 4 |
-| **API design** in service-oriented & micro-services architecture** | 4 years | 4 |
-| CI/CD pipeline automation** & **testing** | 3 years | 5 |
-| Messaging (**RabbitMQ**, **Azure Service Bus**) | 3 years | 4 |
-| **Docker** & **Kubernetes** | 2 years | 4 |
-| **MSSQL** & **MySQL**, **Azure Cosmos DB** |15 years | 5 |
-| Ubuntu Linux | 10 years | 4 |
-| Agile development | 4 years | 4 |
+| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS) | 4 years | ***** |
+| **Microsoft .NET** development with C# | 15 years | ***** |
+| Webservice integrations **REST and SOAP** | 10 years | **** |
+| **API design** in service-oriented & micro-services architecture | 4 years | **** |
+| CI/CD pipeline automation & **testing** | 3 years | ***** |
+| Messaging (**RabbitMQ**, **Azure Service Bus**) | 3 years | **** |
+| **Docker** & **Kubernetes** | 2 years | **** |
+| **MSSQL** & **MySQL**, **Azure Cosmos DB** |15 years | ***** |
+| Ubuntu Linux | 10 years | **** |
+| Agile development | 4 years | **** |
+| Azure DevOps | 3 years | ***** |
+| Jira | 1 year | *** |
+| Github | 10 year | ***** |
+| Gitlab | 1 year | *** |
 
 ### B. Certifications Highlights
 
