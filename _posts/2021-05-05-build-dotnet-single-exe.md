@@ -25,11 +25,11 @@ Did your output look something like this? Read further to generate a true single
 
 What are those files?
 
-`clrcompression.dll`: native compression algorithms.
-`clrjit.dll`: JIT compiler.
-`coreclr.dll`: runtime.
-`mscordaccore.dll`: to enable Watson dumps.
-`My.pdb`: debugging symbols file to allow debugging the code.
+- `clrcompression.dll`: native compression algorithms.
+- `clrjit.dll`: JIT compiler.
+- `coreclr.dll`: runtime.
+- `mscordaccore.dll`: to enable Watson dumps.
+- `My.pdb`: debugging symbols file to allow debugging the code.
 
 Let's produce a single executable with the above files bundled in. We will skip the production of the PDB file. We added 3 additional parameters in the default command `/property:IncludeNativeLibrariesForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False`. The end command looks like this:
 
