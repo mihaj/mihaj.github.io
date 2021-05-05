@@ -33,7 +33,9 @@ What are those files?
 
 Let's produce a single executable with the above files bundled in. We will skip the production of the PDB file. We added 3 additional parameters in the default command `/property:IncludeNativeLibrariesForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False`. The end command looks like this:
 
-`dotnet publish My.csproj --configuration Release --framework net5.0 --output publish --self-contained True --runtime win-x64 --verbosity Normal /property:PublishTrimmed=True /property:PublishSingleFile=True /property:IncludeNativeLibrariesForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False`
+```powershell
+dotnet publish My.csproj --configuration Release --framework net5.0 --output publish --self-contained True --runtime win-x64 --verbosity Normal /property:PublishTrimmed=True /property:PublishSingleFile=True /property:IncludeNativeLibrariesForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False
+```
 
 And we only have one executable now:
 
