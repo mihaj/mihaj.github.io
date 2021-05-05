@@ -10,3 +10,4 @@ node_modules
 package.json
 /.jekyll-cache/Jekyll/Cache
 .vs
+.idea
