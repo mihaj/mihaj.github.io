@@ -14,7 +14,7 @@ In both cases, If we want to click on a link located at the bottom of the web pa
 
 1. First, we need to create a Selenium driver and point it to the URL. 
 2. Then we need to create a do-while loop, check the initial scroll height, scroll down, and recheck the scroll height.
-3. Then compare before and after scroll heights and determine if the driver needs to continue scrolling or is at the bottom of the page.
+3. Finally compare before and after scroll heights and determine if the driver needs to continue scrolling or is at the bottom of the page.
 
 ```csharp
 EdgeOptions options = new EdgeOptions();
