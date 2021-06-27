@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install an IIS application through Powershell
+title: Install application to IIS web server through Powershell
 excerpt_separator: <!--more-->
 author: Miha J.
 tags: powershell
