@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: docker nugget
 ---
-
+<!--more-->
 To build a docker file, you would normally navigate to a folder where it's located and run:
 
 ```

@@ -5,11 +5,10 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: troubleshooting
 ---
-
+<!--more-->
 Occasionally you get an error or found an issue in your code, which you can not comprehend. It can be difficult to solve, or it is something really silly. In any case that is when we put our detective hats on and start the investigation.
 
 Lately, we were upgrading our customer's Web API to a v2 and everything went well. We changed the URI paths, implemented new logic, and move to the next endpoint. But a colleague pointed out an endpoint which always returned 404 - Not found error. No problem, that is easy!
-<!--more-->
 
 "Check the routing path, there must be a typo in there!" - Nope.
 

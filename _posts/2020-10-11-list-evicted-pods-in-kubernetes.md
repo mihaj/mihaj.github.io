@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: kubernetes
 ---
-
+<!--more-->
 Sometimes I want to get a list of all evicted pods from Kubernetes. You can do it like this:
 
 ```powershell
