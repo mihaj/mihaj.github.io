@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: c# tool qatoolkit database sql
 ---
-
+<!--more-->
 In the last part of the [QAToolKit Database library](https://github.com/qatoolkit/qatoolkit-engine-database-net), we will look into writing custom SQL scripts to assert if something is true or not. There is one prerequisite, you need to write an SQL query that will return some results based on the predicate.
 
 For example, simple scripts might be:

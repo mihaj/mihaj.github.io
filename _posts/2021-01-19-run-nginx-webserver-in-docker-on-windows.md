@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: docker nginx
 ---
-
+<!--more-->
 Sometimes you want to run the Nginx web server on Windows. Sometimes you want to run Nginx in Docker on Windows. Let me show you how you can do that.
 
 To build a docker image, we need to create a `Dockerfile`. We need to select a Windows base image, such as Windows 2019 [Core](https://hub.docker.com/_/microsoft-windows-servercore) or [Nano](https://hub.docker.com/_/microsoft-windows-nanoserver) server images. Because official Nginx Windows binaries are not explicitly compiled for 64-bit operating systems, we can not use Windows Nano since it only supports 64-bit applications.

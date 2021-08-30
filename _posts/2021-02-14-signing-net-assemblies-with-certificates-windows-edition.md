@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: c# signing certificate pfx
 ---
-
+<!--more-->
 Sometimes it's good to sign our assemblies with certificates. This way, we give away software that guarantees that did not change since it left our build pipelines. It can give our customers a safety net, that the assembly came from us (if the certificate is not compromised). Let's see how we can do that for .NET assemblies on the Windows system.
 
 First, you need a `signtool.exe`, which comes with Visual Studio. Open `Visual Studio Installer` and modify your Visual Studio installation. Go to `Individual components` and add the `ClickOnce Publishing` package.

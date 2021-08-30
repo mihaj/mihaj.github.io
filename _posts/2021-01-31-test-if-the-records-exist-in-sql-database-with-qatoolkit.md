@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: c# tool qatoolkit database sql
 ---
-
+<!--more-->
 In the previous post, we looked into how we can test for tables, views, and stored procedures in the SQL database. Now, let's continue with [QAToolKit Database library](https://github.com/qatoolkit/qatoolkit-engine-database-net) and test for specific records in a database.
 
 First, we define rules and generate scripts. The below rule will generate an SQL script that will check if the record with the name _myname_ exists in the table _mytable_:

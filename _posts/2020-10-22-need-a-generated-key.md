@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: c#
 ---
-
+<!--more-->
 Do you need a generated key for your password or api key?
 
 Open up a `C# interactive console` in Visual Studio and paste this lines:

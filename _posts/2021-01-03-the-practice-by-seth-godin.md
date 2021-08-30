@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: sethgodin practice
 ---
-
+<!--more-->
 [![Book cover](https://i1.wp.com/m.media-amazon.com/images/I/51WBWNAW8FL.jpg?ssl=1){:width="200px" height="265px"}](https://seths.blog/thepractice/)
 
 I love books by [Seth Godin](https://seths.blog/). Books like **The Linchpin**, **Tribes** or **The Dip**. Seth always explains things in a way that immediately hits you. It's common sense, or is it? 

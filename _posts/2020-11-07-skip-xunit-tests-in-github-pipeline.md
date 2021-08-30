@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: github xunit
 ---
-
+<!--more-->
 We use `GitHub` and `Azure DevOps` agents and runners to run pipelines to make our development processes more robust and automated.
 
 Of course, agents have some boundaries to what they can do. For example, running integration tests that need to start a process on the agents usually are not allowed (shared agents). We are not allowed primarily for security reasons, and that is fine.

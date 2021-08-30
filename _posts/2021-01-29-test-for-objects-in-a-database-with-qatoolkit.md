@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: c# tool qatoolkit database
 ---
-
+<!--more-->
 I find it necessary for us to test our databases and do that in an automated fashion. Sometimes, we want to check that we migrated a new table successfully or removed that obsolete stored procedure. Other times we want to check if the records exist in the database.
 
 With the [QAToolKit Database library](https://github.com/qatoolkit/qatoolkit-engine-database-net), we can quickly implement these kinds of tests. Let's check how we can test if a table, view, and stored procedure exist in the database.

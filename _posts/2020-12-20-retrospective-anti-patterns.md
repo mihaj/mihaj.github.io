@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: retrospectives patterns books
 ---
-
+<!--more-->
 [![Book cover](https://images-na.ssl-images-amazon.com/images/I/41ooTJPHINL._SX380_BO1,204,203,200_.jpg){:width="200px" height="265px"}](https://metadeveloper.com/retrospective-antipatterns/)
 
 [Aino Vonge Corry](https://metadeveloper.com/) wrote a great book [Restrospectives Anti-pattern](https://metadeveloper.com/retrospective-antipatterns/).

@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: powershell
 ---
-
+<!--more-->
 If you are like me, writing all sorts of scripts in [PowerShell Core](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) to automate processes, this is a post for you.
 
 There might be times when you have a time-consuming process, and running them in sequence might be too slow. If you can put the process in the `ForEach loop`, you are lucky because there is a parallel flavor of `ForEach loop`.

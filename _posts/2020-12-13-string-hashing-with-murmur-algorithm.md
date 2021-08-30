@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: c# hashing
 ---
-
+<!--more-->
 Hashing strings is fun. There is a [MurmurHash .NET](https://github.com/darrenkopp/murmurhash-net) which contains a .NET implementation for [MurmurHash algorithm](https://en.wikipedia.org/wiki/MurmurHash).
 
 MurmurHash is a fast non-cryptographic algorithms which can be used to generate cache keys, for example `Memcached` or `Redis`. There is a good post on [Stack Exchange](https://softwareengineering.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed) which goes into details by comparing many hashing algorithms.

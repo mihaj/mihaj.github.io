@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: c# tool qatoolkit ping
 ---
-
+<!--more-->
 In the [previous post](https://www.mihajakovac.com/liveness-check-tool-for-your-http-services/), we used the [QAToolKit's Network Probes](https://github.com/qatoolkit/qatoolkit-engine-probes-net) library to test the liveness of our HTTP services.
 
 Now we will use the same library but a different probe - **Ping Probe**. Ping sends an ICMP echo request packet to the target host and waiting for an ICMP echo reply. This way, we can quickly test if a target host is up and can respond to Ping.

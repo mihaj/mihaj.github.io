@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: powershell rsreadline
 ---
-
+<!--more-->
 I am a heavy user of `Powershell Core` in combination with `Windows Terminal`. Did you know you could have auto-complete in your Powershell?
 
 Use `PSReadLine` module to achieve that.

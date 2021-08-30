@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: powershell, copy
 ---
-
+<!--more-->
 Below is a simple Powershell script that can copy a folder to X folders through a for-loop. You can do it like this:
 
 ```powershell
