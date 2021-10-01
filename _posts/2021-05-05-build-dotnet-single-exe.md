@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: net5
 ---
-
+<!--more-->
 Have you tried to publish a single executable file in .NET 5.0, and the result was not a single file?
 
 For example, running this command:
