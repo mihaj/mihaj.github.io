@@ -12,7 +12,7 @@ _.NET & DevOps Engineer -- Cloud Specialist -- Team Enabler_
 
 At heart I am a deeply analytical person with strong passion for problem solving. I invest a lot of time in reading and learning new skills.
 
-I am an experienced .NET backend developer (freelance/contractor) with an extensive knowledge and over a decades experience in coding and delivering business solutions to a wide audience from Hotels, Energy sector and B2B Marketplaces.
+I am an experienced .NET backend developer (freelance/contractor) with an extensive knowledge and over a decade of experience in coding and delivering business solutions to a wide audience from Hotels, Energy sector and B2B Marketplaces.
 
 I am a zealous advocate of **Agile** methods and continuous delivery of software. 
 
@@ -20,7 +20,7 @@ From the application usability standpoint, I like the UX principles of Steve Kru
 
 I am passionate about **Domain-Driven Design**, **Clean architecture** and strongly support discipline of **software testing**.
 
-I have strong experience in Microsoft stack, and have developed many solutions with **Microsoft .NET** and **Azure**. Including, `ASP.NET`, `C#`, `MVC`, `.NET Core 2.x-3.x`, `.NET 5`, `SQL Server`, `Azure DevOps`, `Visual Studio App Center`.
+I have strong experience in Microsoft stack, and have developed many solutions with **Microsoft .NET** and **Azure**. Including, `ASP.NET`, `C#`, `MVC`, `.NET Core 2.x-3.x`, `.NET 5`, `.NET 6`, `SQL Server`, `Azure DevOps`, `Visual Studio App Center`.
 
 I am a certified Microsoft **MCP**, [MCSD App Builder](https://www.youracclaim.com/badges/46cb2f06-64f1-4784-b321-2dd3c092d2b8), [Azure Developer Associate](https://www.youracclaim.com/badges/adc48026-470d-47a8-a766-cbe192904957) and [Azure DevOps engineer](https://www.youracclaim.com/badges/671077ef-4b52-4b5c-ba5a-8bed04819678).
 
@@ -29,28 +29,29 @@ I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/h
 ### A .Technical Expertise & Experience Matrix
 
 | Technology / Product | Experience | Level (1-5) |
-| ----------- | ----------- | ----------- |
-| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS) | 4 years | * * * * * |
-| **Microsoft .NET** development with C# | 15 years | * * * * * |
-| Webservice integrations **REST and SOAP** | 10 years | * * * * |
-| **API design** in service-oriented & micro-services architecture | 4 years | * * * * |
-| CI/CD pipeline automation & **testing** | 3 years | * * * * * |
-| Messaging (**RabbitMQ**, **Azure Service Bus**) | 3 years | * * * * |
-| **Docker** & **Kubernetes** | 2 years | * * * * |
-| **MSSQL** & **MySQL**, **Azure Cosmos DB** |15 years | * * * * * |
-| Ubuntu Linux | 10 years | * * * * |
-| Agile development | 4 years | * * * * |
-| Jira | 1 year | * * * |
-| Github | 10 year | * * * * * |
-| Gitlab | 1 year | * * * |
+| ----------- |------------| ----------- |
+| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS) | 5 years    | * * * * * |
+| **Microsoft .NET** development with C# | 16 years   | * * * * * |
+| Webservice integrations **REST and SOAP** | 11 years   | * * * * |
+| **API design** in service-oriented & micro-services architecture | 5 years    | * * * * |
+| CI/CD pipeline automation & **testing** | 4 years    | * * * * * |
+| Messaging (**RabbitMQ**, **Azure Service Bus**) | 4 years    | * * * * |
+| **Docker** & **Kubernetes** | 3 years    | * * * * |
+| **MSSQL** & **MySQL** | 16 years   | * * * * * |
+| Ubuntu Linux | 11 years   | * * * * |
+| Agile development | 5 years    | * * * * |
+| Jira | 3 year     | * * * |
+| Github | 12 year    | * * * * * |
+| Gitlab | 2 year     | * * * |
 
-### B. Certifications Highlights
+### B. Certifications & Highlights
 
 - [_Microsoft Certified: Azure DevOps Engineer Expert_](https://www.youracclaim.com/badges/671077ef-4b52-4b5c-ba5a-8bed04819678)
 - [_MCSD: App Builder Certified 2020_](https://www.youracclaim.com/badges/46cb2f06-64f1-4784-b321-2dd3c092d2b8)
 - [_Microsoft Certified: Azure Developer Associate_](https://www.youracclaim.com/badges/adc48026-470d-47a8-a766-cbe192904957)
 - [_Certified ScrumMaster_](https://bcert.me/bc/html/show-badge.html?b=hoeuvmlh)
 - [_MCSA: Web Applications_](https://www.youracclaim.com/badges/93e1f562-1c80-45d0-ae3c-fdd497b56166)
+- [AltMBA (cohort 47) - by Seth Godin](https://www.linkedin.com/in/mihajakovac/details/education/)
 
 ### C .Open Source contributions
 
