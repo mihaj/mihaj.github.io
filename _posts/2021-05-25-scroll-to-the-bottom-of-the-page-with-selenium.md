@@ -6,6 +6,7 @@ author: Miha J.
 tags: selenium, UI tests, C#
 ---
 
+<!--more-->
 I will show you how to scroll to the bottom of the web page with a simple `C# do-while loop` with a `Selenium Edge browser driver` in today's nugget.
 
 Sometimes, the web page content loads while you scroll down. The other times the web server loads the whole page at once and returns it to the browser.

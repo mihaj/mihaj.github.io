@@ -5,6 +5,8 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: jwt, qatoolkit, C#, access token, azure b2c, identity server 4, keycloak
 ---
+
+<!--more-->
 Our HTTP services are typically secured with some authentication. It can be `basic authentication`, `NTLM authentication`, `certificate authentication`, etc.
 
 Today's prevalent means of authentication are access tokens (JWT), or bearer tokens, which are sent to our HTTP APIs in the `Authorization` header. When you use your application manually, you log in with your username and password to retrieve the token. But what when you do automatic testing without the UI?
