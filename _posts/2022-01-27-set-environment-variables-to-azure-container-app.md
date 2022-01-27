@@ -12,21 +12,21 @@ There are many excellent guides on creating and deploying Linux containers to th
 
 Once you log in to the Azure portal and go to your Container app, you only see the secrets menu and no configuration for environment variables (as shown in the screenshot below). Not to worry, we can set them through the `az` CLI. Once the service is out of preview, I expect the Azure team to implement the UI capability.
 
-![Azure container app secrets](../images/azure_container_app_secrets.png)
+![Azure container app secrets](images/azure_container_app_secrets.png)
 
 My DEMO application is a .NET 6 Web API and needs a database connection string, so I set a secret with `database-connectionstring` through the Azure Portal.
 
-![Add a secret](../images/azure_container_app_secret_add.png)
+![Add a secret](images/azure_container_app_secret_add.png)
 
 Also the Ingress is set like this:
 
-![Azure container app ingress](../images/azure_container_app_ingress.png)
+![Azure container app ingress](images/azure_container_app_ingress.png)
 
 Next, we need to [install](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) `az` CLI. I've compiled the steps in the script below.
 
 Alternatively, you can use in-browser CLI, by clicking on the button in the toolbar: 
 
-![Azure CLI](../images/azure_container_app_cli.png)
+![Azure CLI](images/azure_container_app_cli.png)
 
 Once you have your `az` CLI ready, go through the script below and set environment variables.
 
