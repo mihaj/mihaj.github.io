@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: jwt, qatoolkit, C#, access token, keycloak, ROPC
 ---
-
+<!--more-->
 I've introduced the [QAToolKit Auth library](https://github.com/qatoolkit/qatoolkit-auth-net) in the [previous post](https://www.mihajakovac.com/get-access-jwt-token-from-keycloak-with-qatoolkit/), where I wrote about retrieving the access token (JWT) from the Keycloak with `Client Credential flow`.
 
 The QAToolKit Auth library supports another flow, and that is `Resource owner password credential` grant or ROPC. You can configure `KeycloakAuthenticator` differently like this:

@@ -5,7 +5,6 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: net6, c#
 ---
-<!--more-->
 A few months ago, I published a blog post where I described how to publish a [.NET 5 self-contained single executable application](https://www.mihajakovac.com/build-dotnet-single-exe/).
 
 I want to update the previous post for .NET 6, which came with a new dotnet publish argument, `EnableCompressionInSingleFile`. We can use it like this:
