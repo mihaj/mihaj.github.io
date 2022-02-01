@@ -14,20 +14,20 @@ esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /pro
 
 The trimming of the self-contained assembly is time-consuming so compression might be a good alternative. If you combine both, you can get the perfect file size.
 
-### :thumbsdown: trimming, :thumbsdown: compression
+### ☒ trimming, ☒ compression
 A command with `/property:PublishTrimmed=False /property:PublishSingleFile=True /property:IncludeNativeLibrari
-esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of 70 MB.
+esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of **70 MB˙**.
 
-### :thumbsdown: trimming, :+1: compression
+### ☒ trimming, ☑ compression
 A command with `/property:PublishTrimmed=False /property:PublishSingleFile=True /property:IncludeNativeLibrari
-esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of 36 MB.
+esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of **36 MB**.
 
-### :+1: Trimming, :thumbsdown: compression
+### ☑ Trimming, ☒ compression
 A command with `/property:PublishTrimmed=False /property:PublishSingleFile=True /property:IncludeNativeLibrari
-esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of 25 MB.
+esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of **25 MB**.
 
-### :+1: Trimming , :thumbsdown: compression
+### ☑ Trimming , ☑ compression
 `/property:PublishTrimmed=True /property:PublishSingleFile=True /property:IncludeNativeLibrari
-esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of 15 MB.
+esForSelfExtract=True /property:DebugType=None /property:DebugSymbols=False /property:EnableCompressionInSingleFile=True` produced file size of **15 MB**.
 
 Please remember that compressed assembly will take longer to start, so if that is a concern in your application, test it out thoroughly.
