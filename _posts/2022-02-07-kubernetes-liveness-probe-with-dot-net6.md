@@ -29,7 +29,7 @@ using System;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Beekn.WebApi.Extensions.HealthChecks;
+namespace Project.Extensions.HealthChecks;
 
 public static partial class HealthCheckExtensions
 {
@@ -53,7 +53,7 @@ The code below exposes the `/liveness` endpoint on our service and checks all he
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
-namespace Beekn.WebApi.Extensions.HealthChecks;
+namespace Project.Extensions.HealthChecks;
 
 public static class RegisterProbesExtensions
 {

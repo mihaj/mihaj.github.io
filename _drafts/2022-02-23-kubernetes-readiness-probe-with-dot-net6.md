@@ -18,7 +18,7 @@ using Common.HealthChecks.HealthChecks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Common.HealthChecks
+namespace Project.HealthChecks
 {
 	public static partial class HealthCheckExtensions
 	{
@@ -48,7 +48,7 @@ Now we register the `readiness` probe endpoint.
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
-namespace Common.HealthChecks
+namespace Project.HealthChecks
 {
 	public static class RegisterProbesExtensions
 	{

@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 using Common.HealthChecks.AppEvents;
 using Microsoft.Extensions.Hosting;
 
-namespace Common.HealthChecks
+namespace Project.HealthChecks
 {
    public enum ServiceState
    {
@@ -87,7 +87,7 @@ using Common.HealthChecks.HealthChecks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Common.HealthChecks
+namespace Project.HealthChecks
 {
    public static partial class HealthCheckExtensions
    {
@@ -113,7 +113,7 @@ The code below exposes the `/startup` endpoint on our service and checks all hea
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
-namespace Beekn.WebApi.Extensions.HealthChecks;
+namespace Project.Extensions.HealthChecks;
 
 public static class RegisterProbesExtensions
 {
