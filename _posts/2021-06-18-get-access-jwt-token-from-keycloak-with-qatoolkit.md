@@ -5,7 +5,6 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: jwt, qatoolkit, C#, access token, azure b2c, identity server 4, keycloak
 ---
-
 <!--more-->
 Our HTTP services are typically secured with some authentication. It can be `basic authentication`, `NTLM authentication`, `certificate authentication`, etc.
 

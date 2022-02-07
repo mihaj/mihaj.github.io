@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: jwt, qatoolkit, C#, access token, azure ad b2c, ROPC
 ---
+<!--more-->
 In previous posts, we covered Keycloak and how to retrieve the JWT token from it with [QAToolKit Auth library](https://github.com/qatoolkit/qatoolkit-auth-net).
 
 In this post, we will look into Azure AD B2C identity provider and integration with QAToolkit. As with Keycloak, we can use _Client Credential_ and _Resource Owner Password Credential_ flows to get the token. Currently, the token exchange is not supported with Azure AD B2C. Now, let's go to the code.

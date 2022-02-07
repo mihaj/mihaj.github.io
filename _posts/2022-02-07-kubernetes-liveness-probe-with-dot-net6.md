@@ -1,9 +1,9 @@
 ﻿---
 layout: post
-title: Kubernetes liveness probe with .NET
+title: Kubernetes liveness probe with .NET 6 - part 1
 excerpt_separator: <!--more-->
 author: Miha J.
-tags: .NET, c#, kubernetes, liveness probe
+tags: .NET, net6, c#, kubernetes, liveness probe
 ---
 
 The Kubernetes is a container orchestrator that sweeps through the cloud-native world application development. For orchestrator to manage our applications, it needs to know its state, like:
@@ -12,15 +12,17 @@ The Kubernetes is a container orchestrator that sweeps through the cloud-native 
 - Is my application running?
 - Is my application ready to be used?
 
-These are my interpretations of `/startup`, `/liveness` and `/readiness` [probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/).
+The Kubernetes (or other systems) can ping all of those endpoints every X seconds and determine what is the state of our application. 
 
-This will be a 3-part post, and I will start with the `Liveness` probe written in C#.
+In the next 3 posts, you will read about my interpretations of `/startup`, `/liveness` and `/readiness` [probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) and how to implement them with C# and .NET 6.
+
+First, we will start with the `Liveness` probe.
 
 The liveness probe detects if the application is running and responding and returns the correct response in the case of HTTP API. Great libraries are available in .NET, which give us the health checking infrastructure.
 
-To start implementing the liveness probe in .NET 6, you do not need to reference any additional library. The `Microsoft.Extensions.Diagnostics.HealthChecks` should be included in the base framework.
+To start implementing the liveness probe in .NET 6, you don't need to reference any additional library. The `Microsoft.Extensions.Diagnostics.HealthChecks` should be included in the base framework.
 
-Here is the code:
+Here is the code for the liveness health check:
 
 ```c#
 using System;
