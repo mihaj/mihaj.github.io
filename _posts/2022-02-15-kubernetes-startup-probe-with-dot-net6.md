@@ -6,11 +6,11 @@ author: Miha J.
 tags: .NET, net6, c#, kubernetes, startup probe
 ---
 
-In part 1, I showed you how you can create a [liveness probe](https://mihajakovac.com/2022-02-09-kubernetes-liveness-probe-with-dot-net6). In part 2, I will talk about startup probes.
+In part 1, I showed you how to create a [liveness probe](https://www.mihajakovac.com/kubernetes-liveness-probe-with-dot-net6/). In part 2, I will talk about `startup probes`.
 
-The startup probe is a probe signaling a healthy service when it starts. We need to capture that information, so I've developed a solution to create an `IHosteService` implementation that will control the `IHostApplicationLifetime` state.
+The startup probe is a probe that pings an `/startup` health check endpoint on a target application when it starts. To capture that information, I've developed a solution to create an `IHosteService` implementation that will control the `IHostApplicationLifetime` state. The service will be registered as a singleton and started last in the `ConfigureServices` method.
 
-With the solution below, we are taking care of the probe and taking care of the Service lifetime actions, like `OnShutdown`, `OnStarted` and on `OnStopped`.
+With the solution below, we are taking care of the `/startup` health check endpoint and the service lifetime actions, like `OnShutdown`, `OnStarted` and on `OnStopped`.
 
 Here is the code:
 
@@ -79,7 +79,7 @@ namespace Project.HealthChecks
 }
 ```
 
-Next, let's add the Health Check class:
+Next, let's add the Health Check class to set up the startup health check:
 
 ```c#
 using System;
@@ -105,7 +105,7 @@ namespace Project.HealthChecks
 }
 ```
 
-The code registers a health check that returns healthy status if `ServiceStatus.State = ServiceState.Started;`. We also set the tag of the health check to `Startup`, which is helpful for grouping health checks together when exposing a `/startup` endpoint.
+The code registers a health check that returns healthy status if `ServiceStatus.State == ServiceState.Started;`. We also set the tag of the health check to `Startup`, which is helpful for grouping health checks together when exposing a `/startup` endpoint.
 
 The code below exposes the `/startup` endpoint on our service and checks all health checks with the `Startup` tag.
 
@@ -132,9 +132,8 @@ public void ConfigureServices(IServiceCollection services)
 {
     ...
     services.AddHesStartupHealthChecks();
-   services.AddSingleton<HostApplicationLifetimeEventsHostedService>();
-   services.AddHostedService(p => p.GetRequiredService<HostApplicationLifetimeEventsHostedService>());
-    ...
+    services.AddSingleton<HostApplicationLifetimeEventsHostedService>();
+    services.AddHostedService(p => p.GetRequiredService<HostApplicationLifetimeEventsHostedService>());
 }
 
 public void Configure(IApplicationBuilder app)
