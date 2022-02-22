@@ -5,6 +5,8 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: jwt, qatoolkit, C#, access token, identity server 4, ROPC
 ---
+
+<!--more-->
 So far, we have covered retrieving an access token (JWT) from the Keycloak and Azure AD B2C using [QaToolKit Auth library](https://github.com/qatoolkit/qatoolkit-auth-net
 ). We will finish with [Identity Server 4](https://duendesoftware.com/). It's a well-known OpenID Connect and OAuth 2.0 framework in the .NET space.
 

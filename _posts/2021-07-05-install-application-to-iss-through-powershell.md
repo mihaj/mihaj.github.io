@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 author: Miha J.
 tags: powershell, IIS
 ---
-
+<!--more-->
 You can deploy a web application to IIS with Powershell. Actually, you can do a lot with the tools `APPCMD`, `msbuild` and `msdeploy`. The script is handy for your automated deployments and CI/CD pipelines. The complete script is below.
 
 There are two optional sections below for binding SSL certificates and to add an IP address to the network interface if you need them.
