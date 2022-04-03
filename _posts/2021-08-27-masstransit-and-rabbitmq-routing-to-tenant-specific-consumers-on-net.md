@@ -6,6 +6,7 @@ author: Miha J.
 tags: masstransit, c#, rabbitmq
 ---
 
+<!--more-->
 Imagine a situation where you have an application that has a multi-tenancy. The application has a service that can run in multiple replicas and is configured for a specific tenant.
 
 You can imagine it something like the diagram below:
