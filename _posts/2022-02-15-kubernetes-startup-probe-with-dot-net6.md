@@ -79,7 +79,40 @@ namespace Project.HealthChecks
 }
 ```
 
-Next, let's add the Health Check class to set up the startup health check:
+Now let's create a custom Health Check:
+
+```c#
+public class StartupHealthCheck : IHealthCheck
+{
+    private readonly IServiceProvider _serviceProvider;
+
+    public StartupHealthCheck(IServiceProvider serviceProvider)
+    {
+        _serviceProvider = serviceProvider;
+    }
+		
+    public async Task<HealthCheckResult> CheckHealthAsync(HealthCheckContext context,
+        CancellationToken cancellationToken = default)
+    {
+        var hostApplicationLifetimeEventsHostedService =
+            _serviceProvider.GetService<HostApplicationLifetimeEventsHostedService>();
+			
+        HealthCheckResult result;
+        if (hostApplicationLifetimeEventsHostedService.ServiceStatus.State == ServiceState.Started)
+        {
+            result = HealthCheckResult.Healthy();
+        }
+        else
+        {
+            result = HealthCheckResult.Unhealthy("Service not started.");
+        }
+
+        return result;
+    }
+}
+```
+
+Next, let's add that custom Health Check to set up the startup health check in the service container:
 
 ```c#
 using System;
