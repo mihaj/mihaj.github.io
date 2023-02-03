@@ -26,34 +26,39 @@ I am a certified Microsoft **MCP**, [MCSD App Builder](https://www.youracclaim.c
 
 I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/html/show-badge.html?b=hoeuvmlh). A Scrum Master helps the development team to create high-value products, removing impediments to the development teams progress, helping stakeholders understand and enact Scrum and empirical product development.
 
-### A .Technical Expertise & Experience Matrix
+### A. Technical expertise & Experience Matrix
 
-| Technology / Product | Experience | Level (1-5) |
-| ----------- |------------| ----------- |
-| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS) | 5 years    | * * * * * |
-| **Microsoft .NET** development with C# | 16 years   | * * * * * |
-| Webservice integrations **REST and SOAP** | 11 years   | * * * * |
-| **API design** in service-oriented & micro-services architecture | 5 years    | * * * * |
-| CI/CD pipeline automation & **testing** | 4 years    | * * * * * |
-| Messaging (**RabbitMQ**, **Azure Service Bus**) | 4 years    | * * * * |
-| **Docker** & **Kubernetes** | 3 years    | * * * * |
-| **MSSQL** & **MySQL** | 16 years   | * * * * * |
-| Ubuntu Linux | 11 years   | * * * * |
-| Agile development | 5 years    | * * * * |
-| Jira | 3 year     | * * * |
-| Github | 12 year    | * * * * * |
-| Gitlab | 2 year     | * * * |
+| Technology / Product                                             | Experience | Level (1-5) |
+|------------------------------------------------------------------|------------|-------------|
+| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS)          | 6 years    | * * * * *   |
+| **Microsoft .NET** development with C#                           | 17 years   | * * * * *   |
+| Webservice integrations **REST and SOAP**                        | 12 years   | * * * *     |
+| **API design** in service-oriented & micro-services architecture | 6 years    | * * * * *   |
+| CI/CD pipeline automation & **testing**                          | 5 years    | * * * * *   |
+| Messaging (**RabbitMQ**, **Azure Service Bus**)                  | 5 years    | * * * *     |
+| **Docker** & **Kubernetes**                                      | 4 years    | * * * *     |
+| **MSSQL** & **MySQL** & **Postgres**                             | 17 years   | * * * * *   |
+| Ubuntu Linux                                                     | 12 years   | * * * *     |
+| Agile development                                                | 6 years    | * * * *     |
+| Jira                                                             | 4 year     | * * *       |
+| Github                                                           | 13 year    | * * * * *   |
+| Gitlab                                                           | 3 year     | * * * *     |
 
-### B. Certifications & Highlights
+### B. Managing & organization expertise
 
+- Working with and leading teams up to 10 people.
+
+### C. Certifications & Highlights
+
+- [IE University - Chief technology officer program](https://www.linkedin.com/in/mihajakovac/details/education/)
+- [AltMBA (cohort 47) - by Seth Godin](https://www.linkedin.com/in/mihajakovac/details/education/)
 - [_Microsoft Certified: Azure DevOps Engineer Expert_](https://www.youracclaim.com/badges/671077ef-4b52-4b5c-ba5a-8bed04819678)
 - [_MCSD: App Builder Certified 2020_](https://www.youracclaim.com/badges/46cb2f06-64f1-4784-b321-2dd3c092d2b8)
 - [_Microsoft Certified: Azure Developer Associate_](https://www.youracclaim.com/badges/adc48026-470d-47a8-a766-cbe192904957)
 - [_Certified ScrumMaster_](https://bcert.me/bc/html/show-badge.html?b=hoeuvmlh)
 - [_MCSA: Web Applications_](https://www.youracclaim.com/badges/93e1f562-1c80-45d0-ae3c-fdd497b56166)
-- [AltMBA (cohort 47) - by Seth Godin](https://www.linkedin.com/in/mihajakovac/details/education/)
 
-### C .Open Source contributions
+### D. Open Source contributions
 
 When time permits, I work on open source projects.
 
