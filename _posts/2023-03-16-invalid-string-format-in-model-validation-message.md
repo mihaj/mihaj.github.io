@@ -31,9 +31,7 @@ System.FormatException: Input string was not in a correct format.
    ...
 ```
 
-This does not look like an error of the validator but something internally. After some digging, I discovered that `ErrorMessage` was the culprit.
-
-After some digging in .NET internals, I found this:
+This does not look like an error of the validator but something internally. After some digging, I discovered that `ErrorMessage` was the culprit. In .NET internals, I found this:
 
 ```c#
 public override string FormatErrorMessage(string name)
@@ -44,7 +42,7 @@ public override string FormatErrorMessage(string name)
 }
 ```
 
-That makes sense the ErrorMessage string is formatted using `string.Format()`. I isolated the case and ran the code below a few times until I tried curly braces. I got the same error:
+That makes sense, the ErrorMessage string is formatted using `string.Format()`. I isolated the case and ran the code below a few times until I tried curly braces. I got the same error:
 
 ```c#
 var str = string.Format("Miha {}");
