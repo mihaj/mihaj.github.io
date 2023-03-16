@@ -63,18 +63,10 @@ Now let's escape them:
 Result: Miha {}
 ```
 
-Now I only need to escape curly braces in my model validation error message to:
+Now I only need to escape curly braces with double curly braces in my model validation error message to:
 
-```c#
-public class MyModel
-{
-    [Required]
-    [MinLength(1)]
-    [MaxLength(64)]
-    [RegularExpression("^[0-9\\p{L}\\-_,.!?\\[\\]{}()<> ]*$", ErrorMessage = "is invalid. It should only contain letters, numbers, spaces, unicode and special characters ( ) [ ] {{ }} < > - _ , . ? !")]
-    [NoWhitespaceOnStartAndEnd(ErrorMessage = "is invalid. It should not start or end with space character(s).")]
-    public string Name { get; set; }
-}
+```
+[RegularExpression("^[0-9\\p{L}\\-_,.!?\\[\\]{}()<> ]*$", ErrorMessage = "is invalid. It should only contain letters, numbers, spaces, unicode and special characters ( ) [ ] {{ }} < > - _ , . ? !")]
 ```
 
 And that's it! :D
