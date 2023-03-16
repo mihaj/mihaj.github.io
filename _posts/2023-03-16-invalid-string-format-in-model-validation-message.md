@@ -66,7 +66,7 @@ Result: Miha {}
 Now I only need to escape curly braces with double curly braces in my model validation error message to:
 
 ```text
-... ErrorMessage = "is invalid. It should only contain letters, numbers, spaces, unicode and special characters ( ) [ ] {{{ }}} < > - _ , . ? !")]
+... ErrorMessage = "is invalid. It should only contain letters, numbers, spaces, unicode and special characters ( ) [ ] \{{ \}} < > - _ , . ? !")]
 ```
 
 And that's it! :D
