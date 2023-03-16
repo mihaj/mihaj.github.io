@@ -63,6 +63,6 @@ Now let's escape them:
 Result: Miha {}
 ```
 
-Now I only need to escape curly braces `\{ \}` with double curly braces `\{\{ \}\}` in my model validation error message to:
+Now I only need to escape curly braces `{ }` with double curly braces `{{ }}` in my model validation error message to:
 
 And that's it! :D
