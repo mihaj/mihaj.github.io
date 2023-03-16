@@ -65,4 +65,8 @@ Result: Miha {}
 
 Now I only need to escape curly braces `{ }` with double curly braces `{% raw %}{{ }}{% endraw %}` in my model validation error message to:
 
+```c#
+[RegularExpression("^[0-9\\p{L}\\-_,.!?\\[\\]{}()<> ]*$", ErrorMessage = "is invalid. It should only contain letters, numbers, spaces, unicode and special characters ( ) [ ] {% raw %}{{ }}{% endraw %} < > - _ , . ? !")]
+```
+
 And that's it! :D
