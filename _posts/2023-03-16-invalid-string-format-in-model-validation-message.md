@@ -58,11 +58,11 @@ var str = string.Format("Miha {}");
 Now let's escape them:
 
 ```text
-> var str = string.Format("Miha {{}}");
+> var str = string.Format("Miha {% raw %}{{}}{% endraw %}");
 > Console.WriteLine(str);
 Result: Miha {}
 ```
 
-Now I only need to escape curly braces `{ }` with double curly braces `\{{ \}}` in my model validation error message to:
+Now I only need to escape curly braces `{ }` with double curly braces `{% raw %}{{ }}{% endraw %}` in my model validation error message to:
 
 And that's it! :D
