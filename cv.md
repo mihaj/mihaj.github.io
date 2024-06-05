@@ -26,23 +26,23 @@ I am a certified Microsoft **MCP**, [MCSD App Builder](https://www.youracclaim.c
 
 I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/html/show-badge.html?b=hoeuvmlh). A Scrum Master helps the development team to create high-value products, removing impediments to the development teams progress, helping stakeholders understand and enact Scrum and empirical product development.
 
-### A. Technical expertise & Experience Matrix
+### A. Technical expertise & Experience
 
 | Technology / Product                                             | Experience | Level (1-5) |
 |------------------------------------------------------------------|------------|-------------|
-| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS)          | 6 years    | * * * * *   |
-| **Microsoft .NET** development with C#                           | 17 years   | * * * * *   |
-| Webservice integrations **REST and SOAP**                        | 12 years   | * * * *     |
-| **API design** in service-oriented & micro-services architecture | 6 years    | * * * * *   |
-| CI/CD pipeline automation & **testing**                          | 5 years    | * * * * *   |
-| Messaging (**RabbitMQ**, **Azure Service Bus**)                  | 5 years    | * * * *     |
-| **Docker** & **Kubernetes**                                      | 4 years    | * * * *     |
-| **MSSQL** & **MySQL** & **Postgres**                             | 17 years   | * * * * *   |
-| Ubuntu Linux                                                     | 12 years   | * * * *     |
-| Agile development                                                | 6 years    | * * * *     |
-| Jira                                                             | 4 year     | * * *       |
-| Github                                                           | 13 year    | * * * * *   |
-| Gitlab                                                           | 3 year     | * * * *     |
+| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS)          | 7 years    | * * * * *   |
+| **Microsoft .NET** development with C#                           | 18 years   | * * * * *   |
+| Webservice integrations **REST and SOAP**                        | 13 years   | * * * * *   |
+| **API design** in service-oriented & micro-services architecture | 7 years    | * * * * *   |
+| CI/CD pipeline automation & **testing**                          | 6 years    | * * * * *   |
+| Messaging (**RabbitMQ**, **Azure Service Bus**)                  | 6 years    | * * * *     |
+| **Docker** & **Kubernetes**                                      | 5 years    | * * * *     |
+| **MSSQL** & **MySQL** & **Postgres**                             | 18 years   | * * * * *   |
+| Ubuntu Linux                                                     | 13 years   | * * * *     |
+| Agile development                                                | 7 years    | * * * * *   |
+| Jira                                                             | 5 year     | * * *       |
+| Github                                                           | 14 year    | * * * * *   |
+| Gitlab                                                           | 4 year     | * * * * *   |
 
 ### B. Managing & organization expertise
 
