@@ -8,8 +8,6 @@ tags: docker, docker buildx, multi-arch images, multi architecture, arm64, amd64
 
 Nowadays, we run .NET 5,6,7,8, ... apps on the Linux operating system almost without any issues. We can use [Alpine MUSL linux](https://pkgs.alpinelinux.org/package/edge/main/x86/musl) [Docker image](https://hub.docker.com/_/alpine), put the self contained .NET executable in it, install few libraries and we are good to go.
 
-<!--more-->
-
 Default architecture we normally use is `AMD64` with switch `--platform linux-must-64` in the `dotnet publish` command. We can run the containers in Kubernetes on Linux, or we run it on Linux VM. No problems there.
 
 Lately we have some developers using MacBook M2 with ARM CPU architecture, and we were struggling to run this docker container on it. You will probably not run your production on MacBook, but you can already run your apps on [ARM virtual machines](https://azure.microsoft.com/en-us/updates/general-availability-armbased-vms-now-available-in-four-additional-azure-regions/), so it makes sense to do that.
@@ -26,7 +24,7 @@ First you need to check if you have `buildx` module installed:
 
 Then create a new builder:
 
-`docker buildx create --name cobasekrm-builder --use --bootstrap`
+`docker buildx create --name my-app-builder --use --bootstrap`
 
 This will run buildx container on your machine used to build the multi-arch docker images.
 
