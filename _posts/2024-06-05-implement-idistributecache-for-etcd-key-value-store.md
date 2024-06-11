@@ -38,7 +38,7 @@ public class MyClass
         _distributedCache = distributedCache;
     }
 
-    public async Task<IActionResult> Write(string key, string value)
+    public async Task Write(string key, string value)
     {
         //Save to cache
         await _distributedCache.SetAsync(key,
@@ -49,6 +49,12 @@ public class MyClass
 
         //Read from cache
         var cachedValue = await _distributedCache.GetAsync(key);
+    }
+    
+    public async Task<string> Read(string key)
+    {
+        //Read from cache
+        return await _distributedCache.GetAsync(key);
     }
 }
 ```
