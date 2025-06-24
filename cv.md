@@ -4,23 +4,23 @@ title: A curriculum vitae :)
 permalink: /cv
 ---
 
-_.NET & DevOps Engineer -- Cloud Specialist -- Team Enabler_
+_.NET & DevOps Engineer_
 
 - **Languages:** Slovenian (native), English (professional)
 - **Web:** [mjc.si](https://mjc.si/blog/), [mihajakovac.com](https://mihajakovac.com), [QAToolKit](https://qatoolkit.io)
 - **Social:** [LinkedIn](https://www.linkedin.com/in/mihajakovac/), [Github](https://github.com/mihaj)
 
-At heart I am a deeply analytical person with strong passion for problem solving. I invest a lot of time in reading and learning new skills.
+At heart I am a deeply analytical person with a strong passion for problem-solving. I invest a lot of time in reading and learning new skills.
 
-I am an experienced .NET backend developer (freelance/contractor) with an extensive knowledge and over a decade of experience in coding and delivering business solutions to a wide audience from Hotels, Energy sector and B2B Marketplaces.
+I am an experienced .NET backend developer (freelance/contractor) with an extensive knowledge and over a decade of experience in coding and delivering business solutions to a wide audience from Hotels, Energy sector, and B2B Marketplaces.
 
 I am a zealous advocate of **Agile** methods and continuous delivery of software. 
 
 From the application usability standpoint, I like the UX principles of Steve Krug which were greatly described in his book "Don't make me think".
 
-I am passionate about **Domain-Driven Design**, **Clean architecture** and strongly support discipline of **software testing**.
+I am passionate about **Domain-Driven Design**, **Clean architecture** and strongly support the discipline of **software testing**.
 
-I have strong experience in Microsoft stack, and have developed many solutions with **Microsoft .NET** and **Azure**. Including, `ASP.NET`, `C#`, `MVC`, `.NET Core 2.x-3.x`, `.NET 5`, `.NET 6`, `SQL Server`, `Azure DevOps`, `Visual Studio App Center`.
+I have strong experience in Microsoft stack and have developed many solutions with **Microsoft .NET** and **Azure**. Including, `ASP.NET`, `C#`, `MVC`, `> .NET 2.x`, `.NET Core 2.x-3.x`, `> .NET 5`, `SQL Server`, `Azure DevOps`, `Visual Studio App Center`.
 
 I am a certified Microsoft **MCP**, [MCSD App Builder](https://www.youracclaim.com/badges/46cb2f06-64f1-4784-b321-2dd3c092d2b8), [Azure Developer Associate](https://www.youracclaim.com/badges/adc48026-470d-47a8-a766-cbe192904957) and [Azure DevOps engineer](https://www.youracclaim.com/badges/671077ef-4b52-4b5c-ba5a-8bed04819678).
 
@@ -30,25 +30,35 @@ I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/h
 
 | Technology / Product                                             | Experience | Level (1-5) |
 |------------------------------------------------------------------|------------|-------------|
-| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS)          | 7 years    | * * * * *   |
-| **Microsoft .NET** development with C#                           | 18 years   | * * * * *   |
-| Webservice integrations **REST and SOAP**                        | 13 years   | * * * * *   |
-| **API design** in service-oriented & micro-services architecture | 7 years    | * * * * *   |
-| CI/CD pipeline automation & **testing**                          | 6 years    | * * * * *   |
-| Messaging (**RabbitMQ**, **Azure Service Bus**)                  | 6 years    | * * * *     |
-| **Docker** & **Kubernetes**                                      | 5 years    | * * * *     |
-| **MSSQL** & **MySQL** & **Postgres**                             | 18 years   | * * * * *   |
-| Ubuntu Linux                                                     | 13 years   | * * * *     |
-| Agile development                                                | 7 years    | * * * * *   |
-| Jira                                                             | 5 year     | * * *       |
-| Github                                                           | 14 year    | * * * * *   |
-| Gitlab                                                           | 4 year     | * * * * *   |
+| **Azure cloud** and **Azure DevOps** (IaaS, PaaS, SaaS)          | 9 years    | * * * * *   |
+| **Google cloud**                                                 | 1 year     | * * * *     |
+| **Microsoft .NET** development with C# 2.x and above             | 20 years   | * * * * *   |
+| Webservice integrations **REST and SOAP**                        | 15 years   | * * * * *   |
+| **API design** in service-oriented & micro-services architecture | 9 years    | * * * * *   |
+| CI/CD pipeline automation                                        | 8 years    | * * * * *   |
+| **Testing** (Unit, Integration, E2E)                             | 8 years    | * * * * *   |
+| Messaging (**RabbitMQ**, **Azure Service Bus**)                  | 8 years    | * * * *     |
+| **Docker** & **Kubernetes**                                      | 7 years    | * * * *     |
+| **MSSQL** & **MySQL** & **Postgres**                             | 20 years   | * * * * *   |
+| Ubuntu Linux                                                     | 15 years   | * * * *     |
+| Agile development                                                | 9 years    | * * * * *   |
+| Jira                                                             | 7 year     | * * * *     |
+| Github                                                           | 16 year    | * * * * *   |
+| Gitlab                                                           | 6 year     | * * * * *   |
+| Bitbucket pipelines                                              | 1 year     | * * * *     |
+| Terraform                                                        | 6 year     | * * * * *   |
 
 ### B. Managing & organization expertise
 
 - Working with and leading teams up to 10 people.
 
-### C. Certifications & Highlights
+### C. Analyze, review, propose, architect
+
+- I do C# code reviews
+- I analyze and propose your code architecture changes
+- I implement or optimize DevOps processes
+
+### D. Certifications & Highlights
 
 - [IE University - Chief technology officer program](https://www.linkedin.com/in/mihajakovac/details/education/)
 - [AltMBA (cohort 47) - by Seth Godin](https://www.linkedin.com/in/mihajakovac/details/education/)
@@ -58,14 +68,14 @@ I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/h
 - [_Certified ScrumMaster_](https://bcert.me/bc/html/show-badge.html?b=hoeuvmlh)
 - [_MCSA: Web Applications_](https://www.youracclaim.com/badges/93e1f562-1c80-45d0-ae3c-fdd497b56166)
 
-### D. Open Source contributions
+### E. Open Source contributions
 
-When time permits, I work on open source projects.
+When time permits, I work on open-source projects.
 
 #### QAToolKit
 [![QAToolKit](https://avatars2.githubusercontent.com/u/73333202?s=200&v=4){:height="64px" width="64px"}](https://qatoolkit.io/)
 
-QA Tool Kit is a collection of libraries, tools, scripts and guides for your everyday Quality Assurance (QA) & DevOps tasks. Everything is published as an open source on Github and can be run on Windows, Linux and MacOS.
+QA Tool Kit is a collection of libraries, tools, scripts, and guides for your everyday Quality Assurance (QA) & DevOps tasks. Everything is published as an open source on Github and can be run on Windows, Linux, and MacOS.
 
 Link to the [Github organization](https://github.com/qatoolkit)
 
@@ -82,7 +92,7 @@ I created many more tools which were created either: for private use; for testin
 
 **Registry Tweaker**
 
-This was mine first big development project in 2005. This registry management tool was coded using Delphi. It contained a registry browser, a database of registry tweaks (in 2005 being able to tweak PC performance was of major significance), registry backup / restore, system info and much more. It was a very popular tool in 2006.
+This was mine first big development project in 2005. This registry management tool was coded using Delphi. It contained a registry browser, a database of registry tweaks (in 2005 being able to tweak PC performance was of major significance), registry backup / restore, system info, and much more. It was a very popular tool in 2006.
 
 [**Google Chrome backup**](https://googlechromebackup.com)
 
