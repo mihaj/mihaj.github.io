@@ -7,7 +7,7 @@ permalink: /cv
 _.NET & DevOps Engineer_
 
 - **Languages:** Slovenian (native), English (professional)
-- **Web:** [mjc.si](https://mjc.si/blog/), [mihajakovac.com](https://mihajakovac.com), [QAToolKit](https://qatoolkit.io)
+- **Web:** [mjc.si](https://mjc.si/blog/), [mihajakovac.com](https://mihajakovac.com), [Nomirun](https://nomirun.com), [QAToolKit](https://qatoolkit.io)
 - **Social:** [LinkedIn](https://www.linkedin.com/in/mihajakovac/), [Github](https://github.com/mihaj)
 
 At heart I am a deeply analytical person with a strong passion for problem-solving. I invest a lot of time in reading and learning new skills.
@@ -47,6 +47,7 @@ I am also a certified **Scrum Master** at [Scrum Alliance](https://bcert.me/bc/h
 | Gitlab                                                           | 6 year     | * * * * *   |
 | Bitbucket pipelines                                              | 1 year     | * * * *     |
 | Terraform                                                        | 6 year     | * * * * *   |
+| Engineering AI LLM solutions                                     | 2 years    | * * * *     |
 
 ### B. Managing & organization expertise
 
