@@ -151,3 +151,32 @@ Cloned the repo and wondered why it took an hour.
 Turns out: don’t version control video tutorials.
 
 𝘔𝘦𝘴𝘴𝘢𝘨𝘦 𝘮𝘦 𝘪𝘧 𝘺𝘰𝘶𝘳 𝘳𝘦𝘱𝘰 𝘸𝘦𝘪𝘨𝘩𝘴 𝘮𝘰𝘳𝘦 𝘵𝘩𝘢𝘯 𝘺𝘰𝘶𝘳 𝘭𝘶𝘯𝘤𝘩.
+
+### 27.8.2025
+
+I didn’t throttle e-mail notifications.
+
+One small bug bombarded users’ inboxes with duplicate messages.
+
+Throttles and rate limits now prevent notification mishaps.
+
+*Email notifications misbehaving? Let’s add safeguards - message me!*
+
+### 28.8.2025
+
+I ignored UTF-8 encoding issues.
+
+Non-ASCII characters caused garbled text in user profiles and APIs.
+
+Standardized encoding and validation fixed the inconsistencies.
+
+*UTF-8 challenges? Let’s ensure consistent encoding—ping me now!*
+
+### 29.8.2025
+
+I stored passwords without salting.
+
+Even with hashing, predictable patterns risked exposure.
+
+Adding salting and adopting bcrypt improved password storage security.
+
